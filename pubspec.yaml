@@ -1,0 +1,25 @@
+name: flutter_style_presentation_media_queries_demo
+description: "A demonstration on the pitfalls of implementing responsive design in Flutter"
+publish_to: 'none' # Remove this line if you wish to  suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_shaders: ^0.1.2
+  image: ^4.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - phone.webp
+    - uv.webp
+  shaders:
+    - cornerpin.frag
